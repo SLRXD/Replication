@@ -1,0 +1,10 @@
+C:\Users\guo\Desktop\数据库发布订阅\Replication\bin\Debug\Replication.exe.config
+C:\Users\guo\Desktop\数据库发布订阅\Replication\bin\Debug\Replication.exe
+C:\Users\guo\Desktop\数据库发布订阅\Replication\bin\Debug\Replication.pdb
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.Form1.resources
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.Properties.Resources.resources
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.csproj.GenerateResource.cache
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.csproj.CoreCompileInputs.cache
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.exe
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.pdb
+C:\Users\guo\Desktop\数据库发布订阅\Replication\obj\Debug\Replication.csprojAssemblyReference.cache

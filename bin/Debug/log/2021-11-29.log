@@ -1,0 +1,33 @@
+2021-11-29 10:08:22 Info 2021-11-29 10:08:22 已禁用订阅数据库的触发器
+2021-11-29 10:08:23 Info 2021-11-29 10:08:22System.Data.SqlClient.SqlException (0x80131904): 指定的 @job_name ('update')不存在。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Replication.DbHelperP.ExecuteSqlS(String SQLString) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\DbHelperP.cs:行号 107
+ClientConnectionId:329e7660-d483-435c-98ee-a4b693b09210
+Error Number:14262,State:1,Class:16
+2021-11-29 10:11:48 Info 2021-11-29 10:11:48 已禁用订阅数据库的触发器
+2021-11-29 10:11:48 Info 2021-11-29 10:11:48 已禁用订阅数据库的update作业
+2021-11-29 10:18:25 Info 2021-11-29 10:18:25 已禁用订阅数据库的触发器
+2021-11-29 10:18:25 Info 2021-11-29 10:18:25 已禁用订阅数据库的update作业
+2021-11-29 13:06:50 Info 2021-11-29 13:06:50 已禁用订阅数据库的触发器
+2021-11-29 13:06:51 Info 2021-11-29 13:06:51 已禁用订阅数据库的update作业
+2021-11-29 14:38:30 Info 2021-11-29 14:38:30 已禁用订阅数据库的触发器
+2021-11-29 14:38:30 Info 2021-11-29 14:38:30 已禁用订阅数据库的update作业
+2021-11-29 14:38:57 Info 2021-11-29 14:38:57 已禁用订阅数据库的触发器
+2021-11-29 14:38:57 Info 2021-11-29 14:38:57 已禁用订阅数据库的update作业
+2021-11-29 14:38:58 Info 2021-11-29 14:38:58System.Data.SqlClient.SqlException (0x80131904): logreader agent 已存在。请使用 'sp_changelogreader_agent' 更改所有设置/属性。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Replication.DbHelperP.ExecuteSql(String SQLString) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\DbHelperP.cs:行号 79
+ClientConnectionId:acd347a7-e474-452b-93d3-8c6978aca335
+Error Number:21831,State:1,Class:16
