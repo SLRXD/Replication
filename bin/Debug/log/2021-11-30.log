@@ -1,8 +1,0 @@
-2021-11-30 08:39:56 Info 2021-11-30 08:39:56System.Exception: 抛出错误
-   在 Replication.Form1.Form1_Load(Object sender, EventArgs e) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\Form1.cs:行号 42
-2021-11-30 08:42:09 Info 2021-11-30 08:42:09System.Exception: 抛出错误
-   在 Replication.Form1.Form1_Load(Object sender, EventArgs e) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\Form1.cs:行号 42
-2021-11-30 08:43:20 Info 2021-11-30 08:43:20System.Exception: 抛出错误
-   在 Replication.Form1.Form1_Load(Object sender, EventArgs e) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\Form1.cs:行号 42
-2021-11-30 08:43:44 Info 2021-11-30 08:43:44System.Exception: 抛出错误
-   在 Replication.Form1.Form1_Load(Object sender, EventArgs e) 位置 C:\Users\guo\Desktop\数据库发布订阅\Replication\Form1.cs:行号 42

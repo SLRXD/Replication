@@ -137,12 +137,12 @@ namespace Replication
 
         private void Publication()
         {
-            Tips = "禁用订阅数据库触发器";
-            DbHelperP.ExecuteSqlS("EXEC sp_msforeachtable 'alter table ? disable trigger all'");
-            LogHelper.LogInfo(DateTime.Now.ToString() + " 已禁用订阅数据库的触发器");
-            Tips = "禁用订阅数据库update作业";
-            DbHelperP.ExecuteSqlS("EXEC msdb.dbo.sp_update_job @job_name = '" + Subscriber_job + "', @enabled = 0");
-            LogHelper.LogInfo(DateTime.Now.ToString() + " 已禁用订阅数据库的" + Subscriber_job + "作业");
+            //Tips = "禁用订阅数据库触发器";
+            //DbHelperP.ExecuteSqlS("EXEC sp_msforeachtable 'alter table ? disable trigger all'");
+            //LogHelper.LogInfo(DateTime.Now.ToString() + " 已禁用订阅数据库的触发器");
+            //Tips = "禁用订阅数据库update作业";
+            //DbHelperP.ExecuteSqlS("EXEC msdb.dbo.sp_update_job @job_name = '" + Subscriber_job + "', @enabled = 0");
+            //LogHelper.LogInfo(DateTime.Now.ToString() + " 已禁用订阅数据库的" + Subscriber_job + "作业");
             Tips = "正在发布.";
             DbHelperP.ExecuteSql(string.Format(@"sp_replicationdboption @dbname='" + Subscriber_db + "',@optname='publish',@value='true'"));
             Tips = Tips.Insert(Tips.Length, ".");
